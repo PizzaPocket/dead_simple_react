@@ -1,2 +1,8 @@
-require("./styles/scss/style.scss");
-document.write(require("./components/App.jsx"));
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from "./App.js";
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
